@@ -142,6 +142,18 @@
             .print-brand-link { font-size: 11px; color: #6c757d; }
             .print-manager-info { text-align: right; border-left: 3px solid #004098; padding-left: 10px; }
             .print-manager-info .names { color: #0f172a; font-weight: 700; font-size: 12.5px; }
+            .print-page-2 { page-break-before: always; break-before: page; }
+            .print-checklist { border: 1.5px solid #1e293b; border-radius: 6px; padding: 12px 14px; background: #fff !important; margin: 12px 0; page-break-inside: avoid; }
+            .print-checklist h2 { font-size: 14px; font-weight: 800; color: #004098; margin: 0 0 10px 0; }
+            .print-checklist-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; font-size: 12px; font-weight: 600; }
+            .print-check-item { display: flex; align-items: flex-start; gap: 8px; line-height: 1.4; }
+            .print-check-box { width: 13px; height: 13px; border: 1.5px solid #004098; border-radius: 2px; flex-shrink: 0; margin-top: 2px; }
+            .print-note-list { font-size: 11.5px; color: #475569; line-height: 1.55; margin: 0 0 12px 0; padding-left: 18px; }
+            .print-qr-box { display: flex; align-items: center; gap: 16px; padding: 14px 16px; border: 1.5px solid #1e293b; border-radius: 6px; background: #f8fafc !important; margin-bottom: 12px; page-break-inside: avoid; }
+            .print-qr-box img { width: 118px; height: 118px; border: 1px solid #1e293b; background: #fff; flex-shrink: 0; }
+            .print-qr-box .qr-copy { font-size: 12.5px; line-height: 1.5; font-weight: 600; }
+            .print-qr-box .qr-copy strong { color: #004098; font-size: 14px; display: block; margin-bottom: 4px; }
+            .print-qr-box .qr-url { color: #475569; font-size: 11px; word-break: break-all; font-weight: 500; }
         }
     </style>
 </head>
@@ -674,7 +686,7 @@
                 <div class="logo">
                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="투어메이커 로고">
                 </div>
-                <div class="doc-info">문서번호: TM-261123-YS</div>
+                <div class="doc-info">문서번호: TM-261123-YS · 1/2</div>
             </div>
             <div class="print-title-section">
                 <h1>김철수님 일행 여수·목포 여행 일정표</h1>
@@ -762,6 +774,60 @@
             <div class="print-remarks">
                 ※ 상기 일정은 도로·기상 등 현지 사정에 따라 순서가 달라질 수 있는 안내 초안입니다.<br>
                 ※ 케이블카·유람선 구간은 바람이 있을 수 있습니다.
+            </div>
+            <div class="print-contacts">
+                <span><span class="pc-role">담당</span> 박준영 이사 010-5361-3454</span>
+                <span><span class="pc-role">투어메이커</span> 이재명 010-9443-7881</span>
+                <span><span class="pc-role">현지 가이드</span> 미정</span>
+            </div>
+            <div class="print-footer-box">
+                <div class="print-brand-link">[System Powered by TOURMAKER]</div>
+                <div class="print-manager-info">
+                    <div class="names">담당자 : 박준영 이사 010-5361-3454</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="print-page-2">
+            <div class="print-header">
+                <div class="logo">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="투어메이커 로고">
+                </div>
+                <div class="doc-info">문서번호: TM-261123-YS · 2/2</div>
+            </div>
+            <div class="print-title-section">
+                <h1>여행 준비물 &amp; 스마트 가이드북</h1>
+            </div>
+            <div class="print-overview-slim">
+                <div class="print-overview-item"><span class="label">행사기간</span><span class="value"><span class="print-nowrap">2026. 11. 23 (월) ~ 11. 25 (수)</span></span></div>
+                <div class="print-overview-item"><span class="label">단체</span><span class="value"><span class="print-nowrap">김철수님 일행 · 16명</span></span></div>
+                <div class="print-overview-item"><span class="label">이용교통</span><span class="value"><span class="print-nowrap">전용버스</span></span></div>
+            </div>
+            <div class="print-checklist">
+                <h2>□ 출발 전 준비물</h2>
+                <div class="print-checklist-grid">
+                    <div class="print-check-item"><span class="print-check-box"></span>편한 걷기 신발</div>
+                    <div class="print-check-item"><span class="print-check-box"></span>얇은 겉옷 · 바람막이</div>
+                    <div class="print-check-item"><span class="print-check-box"></span>세면도구 (칫솔, 치약 등)</div>
+                    <div class="print-check-item"><span class="print-check-box"></span>개인 상비약 · 멀미약</div>
+                    <div class="print-check-item"><span class="print-check-box"></span>작은 우산</div>
+                    <div class="print-check-item"><span class="print-check-box"></span>충전기 · 보조배터리</div>
+                    <div class="print-check-item"><span class="print-check-box"></span>개인 용돈 및 카드</div>
+                    <div class="print-check-item"><span class="print-check-box"></span>숙소 체크인용 신분증</div>
+                </div>
+            </div>
+            <ul class="print-note-list">
+                <li>순천만국가정원, 오동도, 낙안읍성은 걷는 일정이 있습니다. 편한 신발을 챙겨 주세요.</li>
+                <li>케이블카, 유람선, 천사대교 구간은 바닷바람이 있습니다. 겉옷을 가방에 넣어 두세요.</li>
+                <li>날씨와 동선은 아래 QR로 스마트 가이드북을 열어 확인할 수 있습니다.</li>
+            </ul>
+            <div class="print-qr-box">
+                <img src="assets/images/guidebook-qr.png" alt="스마트 가이드북 QR코드" width="118" height="118">
+                <div class="qr-copy">
+                    <strong>스마트 가이드북 바로가기</strong>
+                    QR코드를 스캔하면 세부 일정, 여행동선, 날씨, 준비물 체크를 스마트폰에서 볼 수 있습니다.
+                    <div class="qr-url">https://indadady.github.io/261123_yeosu/</div>
+                </div>
             </div>
             <div class="print-contacts">
                 <span><span class="pc-role">담당</span> 박준영 이사 010-5361-3454</span>

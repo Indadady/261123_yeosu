@@ -11,4 +11,6 @@
 | day2-nagan.jpg | [Commons: File:Naganeupseong Village 08.jpg](https://commons.wikimedia.org/wiki/File:Naganeupseong_Village_08.jpg) | CC0 |
 | day3-mokpo.jpg | [Commons: File:Mokpo Marine Cable Car in South Korea 06.jpg](https://commons.wikimedia.org/wiki/File:Mokpo_Marine_Cable_Car_in_South_Korea_06.jpg) | KOGL Type 1 |
 
+| guidebook-qr.png | 가이드북 주소로 생성한 QR | — |
+
 호텔 전경은 담당자 URL 공유 후 저장합니다. 자동 검색 이미지는 넣지 않았습니다.
